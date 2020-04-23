@@ -1,0 +1,354 @@
+INFO 2020-04-23 23:19:01 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 21140 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-23 23:19:01 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-23 23:19:01 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-23 23:19:01 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+WARN 2020-04-23 23:19:02 o.m.s.m.ClassPathMapperScanner.warn 44 :No MyBatis mapper was found in '[com.lyg.flowermanagement]' package. Please check your configuration.
+INFO 2020-04-23 23:19:03 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-23 23:19:03 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-23 23:19:03 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-23 23:19:03 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-23 23:19:03 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1642 ms
+INFO 2020-04-23 23:19:03 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:19:03 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-23 23:19:03 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-23 23:19:03 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.852 seconds (JVM running for 4.107)
+INFO 2020-04-23 23:19:31 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-23 23:19:31 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-23 23:19:31 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 28 ms
+INFO 2020-04-23 23:21:47 o.s.s.c.ThreadPoolTaskExecutor.shutdown 218 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:21:48 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 21140 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-23 23:21:48 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+WARN 2020-04-23 23:21:48 o.m.s.m.ClassPathMapperScanner.warn 44 :No MyBatis mapper was found in '[com.lyg.flowermanagement]' package. Please check your configuration.
+INFO 2020-04-23 23:21:48 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-23 23:21:48 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-23 23:21:48 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-23 23:21:48 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-23 23:21:48 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 417 ms
+INFO 2020-04-23 23:21:48 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:21:48 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-23 23:21:48 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-23 23:21:48 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 0.674 seconds (JVM running for 169.224)
+INFO 2020-04-23 23:21:48 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 63 :Condition evaluation unchanged
+INFO 2020-04-23 23:21:52 c.l.f.FlowermanagementApplicationTests.logStarting 55 :Starting FlowermanagementApplicationTests on DESKTOP-5E5VM1J with PID 14376 (started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-23 23:21:52 c.l.f.FlowermanagementApplicationTests.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+WARN 2020-04-23 23:21:53 o.m.s.m.ClassPathMapperScanner.warn 44 :No MyBatis mapper was found in '[com.lyg.flowermanagement]' package. Please check your configuration.
+INFO 2020-04-23 23:21:54 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:21:55 c.l.f.FlowermanagementApplicationTests.logStarted 61 :Started FlowermanagementApplicationTests in 3.945 seconds (JVM running for 6.454)
+INFO 2020-04-23 23:21:56 o.s.s.c.ThreadPoolTaskExecutor.shutdown 218 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:43:57 o.s.s.c.ThreadPoolTaskExecutor.shutdown 218 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:43:58 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 21140 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-23 23:43:58 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+WARN 2020-04-23 23:43:58 o.m.s.m.ClassPathMapperScanner.warn 44 :No MyBatis mapper was found in '[com.lyg.flowermanagement]' package. Please check your configuration.
+INFO 2020-04-23 23:43:58 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-23 23:43:58 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-23 23:43:58 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-23 23:43:58 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-23 23:43:58 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 415 ms
+INFO 2020-04-23 23:43:58 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:43:58 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-23 23:43:58 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-23 23:43:58 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 0.817 seconds (JVM running for 1499.205)
+INFO 2020-04-23 23:43:58 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 63 :Condition evaluation unchanged
+INFO 2020-04-23 23:44:01 o.s.s.c.ThreadPoolTaskExecutor.shutdown 218 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:44:02 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 21140 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-23 23:44:02 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-23 23:44:03 c.l.f.FlowermanagementApplicationTests.logStarting 55 :Starting FlowermanagementApplicationTests on DESKTOP-5E5VM1J with PID 12976 (started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-23 23:44:03 c.l.f.FlowermanagementApplicationTests.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-23 23:44:03 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-23 23:44:03 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-23 23:44:03 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-23 23:44:04 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-23 23:44:04 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1693 ms
+INFO 2020-04-23 23:44:05 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:44:05 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-23 23:44:05 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-23 23:44:05 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 3.161 seconds (JVM running for 1505.769)
+INFO 2020-04-23 23:44:05 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 63 :Condition evaluation unchanged
+INFO 2020-04-23 23:44:07 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:44:08 c.l.f.FlowermanagementApplicationTests.logStarted 61 :Started FlowermanagementApplicationTests in 5.622 seconds (JVM running for 7.308)
+ERROR 2020-04-23 23:44:08 o.s.t.c.TestContextManager.prepareTestInstance 248 :Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@47987356] to prepare test instance [com.lyg.flowermanagement.FlowermanagementApplicationTests@3f1ed068]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.lyg.flowermanagement.FlowermanagementApplicationTests': Unsatisfied dependency expressed through field 'shop'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lyg.flowermanagement.entity.Shop' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lyg.flowermanagement.entity.Shop' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1700)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1256)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 67 common frames omitted
+INFO 2020-04-23 23:44:08 o.s.s.c.ThreadPoolTaskExecutor.shutdown 218 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:44:24 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 3108 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-23 23:44:24 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-23 23:44:24 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-23 23:44:24 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-23 23:44:25 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-23 23:44:25 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-23 23:44:25 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-23 23:44:25 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-23 23:44:25 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1403 ms
+INFO 2020-04-23 23:44:26 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:44:26 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-23 23:44:26 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-23 23:44:26 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.634 seconds (JVM running for 3.81)
+INFO 2020-04-23 23:45:00 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-23 23:45:00 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-23 23:45:00 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 9 ms
+INFO 2020-04-23 23:45:00 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-23 23:45:02 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-23 23:45:02 p6spy.logSQL 60 :1587656702236|79|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select * FROM employee|select * FROM employee
+INFO 2020-04-23 23:45:02 c.l.f.C.EmployeeController.selectAll 22 :[com.lyg.flowermanagement.entity.Employee@2dee7b62, com.lyg.flowermanagement.entity.Employee@76c6df8, com.lyg.flowermanagement.entity.Employee@1913174d]
+INFO 2020-04-23 23:50:40 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 1696 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-23 23:50:40 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-23 23:50:40 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-23 23:50:40 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-23 23:50:41 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-23 23:50:41 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-23 23:50:41 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-23 23:50:41 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-23 23:50:41 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1389 ms
+INFO 2020-04-23 23:50:42 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:50:42 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-23 23:50:42 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-23 23:50:42 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.722 seconds (JVM running for 3.948)
+INFO 2020-04-23 23:51:12 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-23 23:51:12 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-23 23:51:12 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 10 ms
+INFO 2020-04-23 23:51:12 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-23 23:51:12 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-23 23:51:13 p6spy.logSQL 60 :1587657073102|78|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select * FROM employee|select * FROM employee
+INFO 2020-04-23 23:51:13 c.l.f.a.PerformanceAspect.logPerformance 30 :EmployeeService.selectAll();Y;946ms
+INFO 2020-04-23 23:51:13 c.l.f.C.EmployeeController.selectAll 22 :[com.lyg.flowermanagement.entity.Employee@6ed40eae, com.lyg.flowermanagement.entity.Employee@25de890, com.lyg.flowermanagement.entity.Employee@1af83138]
+INFO 2020-04-23 23:54:15 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 18924 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-23 23:54:15 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-23 23:54:15 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-23 23:54:15 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-23 23:54:17 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-23 23:54:17 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-23 23:54:17 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-23 23:54:17 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-23 23:54:17 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1534 ms
+INFO 2020-04-23 23:54:17 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:54:18 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-23 23:54:18 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-23 23:54:18 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.761 seconds (JVM running for 4.002)
+INFO 2020-04-23 23:55:00 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-23 23:55:00 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-23 23:55:00 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 9 ms
+INFO 2020-04-23 23:55:00 c.l.f.a.PerformanceAspect.logPerformance 30 :EmployeeService.employeeLogin(..);Y;5ms
+INFO 2020-04-23 23:55:00 c.l.f.C.EmployeeController.employeeLogin 28 :null
+INFO 2020-04-23 23:55:48 c.l.f.a.PerformanceAspect.logPerformance 30 :EmployeeService.employeeLogin(..);Y;0ms
+INFO 2020-04-23 23:55:48 c.l.f.C.EmployeeController.employeeLogin 28 :null
+INFO 2020-04-23 23:56:52 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 19544 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-23 23:56:52 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-23 23:56:52 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-23 23:56:52 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-23 23:56:53 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-23 23:56:53 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-23 23:56:53 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-23 23:56:54 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-23 23:56:54 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1485 ms
+INFO 2020-04-23 23:56:54 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:56:54 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-23 23:56:54 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-23 23:56:54 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.65 seconds (JVM running for 3.906)
+INFO 2020-04-23 23:57:00 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-23 23:57:00 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-23 23:57:00 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 8 ms
+INFO 2020-04-23 23:57:01 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-23 23:57:01 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-23 23:57:01 p6spy.logSQL 60 :1587657421819|73|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select * 	from employee 	where emp_id=? 	and password=?|select * 	from employee 	where emp_id='1501' 	and password='123456'
+INFO 2020-04-23 23:57:01 c.l.f.a.PerformanceAspect.logPerformance 30 :EmployeeService.employeeLogin(..);N;850ms
+ERROR 2020-04-23 23:57:01 o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [/web] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'id' of 'class com.lyg.flowermanagement.entity.Shop' with value '1' Cause: org.apache.ibatis.reflection.ReflectionException: There is no setter for property named 'id' in 'class com.lyg.flowermanagement.entity.Shop'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no setter for property named 'id' in 'class com.lyg.flowermanagement.entity.Shop'
+	at org.apache.ibatis.reflection.Reflector.getSetInvoker(Reflector.java:365)
+	at org.apache.ibatis.reflection.MetaClass.getSetInvoker(MetaClass.java:167)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.setBeanProperty(BeanWrapper.java:177)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.set(BeanWrapper.java:59)
+	at org.apache.ibatis.reflection.MetaObject.setValue(MetaObject.java:140)
+	at org.apache.ibatis.reflection.MetaObject.setValue(MetaObject.java:138)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.applyPropertyMappings(DefaultResultSetHandler.java:455)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.getRowValue(DefaultResultSetHandler.java:404)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValuesForSimpleResultMap(DefaultResultSetHandler.java:354)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValues(DefaultResultSetHandler.java:328)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSet(DefaultResultSetHandler.java:301)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSets(DefaultResultSetHandler.java:194)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy76.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy77.employeeLogin(Unknown Source)
+	at com.lyg.flowermanagement.service.EmployeeService.employeeLogin(EmployeeService.java:24)
+	at com.lyg.flowermanagement.service.EmployeeService$$FastClassBySpringCGLIB$$11f54fff.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lyg.flowermanagement.aspect.PerformanceAspect.logPerformance(PerformanceAspect.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.lyg.flowermanagement.service.EmployeeService$$EnhancerBySpringCGLIB$$3ac2281a.employeeLogin(<generated>)
+	at com.lyg.flowermanagement.Controller.EmployeeController.employeeLogin(CustomerController.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 2020-04-23 23:57:53 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 21424 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-23 23:57:53 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-23 23:57:53 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-23 23:57:53 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-23 23:57:55 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-23 23:57:55 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-23 23:57:55 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-23 23:57:55 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-23 23:57:55 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1453 ms
+INFO 2020-04-23 23:57:55 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-23 23:57:55 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-23 23:57:55 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-23 23:57:55 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.663 seconds (JVM running for 3.979)
+INFO 2020-04-23 23:58:01 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-23 23:58:01 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-23 23:58:01 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 8 ms
+INFO 2020-04-23 23:58:01 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-23 23:58:02 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-23 23:58:02 p6spy.logSQL 60 :1587657482688|66|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select * 	from employee 	where emp_id=? 	and password=?|select * 	from employee 	where emp_id='1501' 	and password='123456'
+INFO 2020-04-23 23:58:02 c.l.f.a.PerformanceAspect.logPerformance 30 :EmployeeService.employeeLogin(..);Y;894ms
+INFO 2020-04-23 23:58:02 c.l.f.C.EmployeeController.employeeLogin 28 :com.lyg.flowermanagement.entity.Employee@50ed0cab

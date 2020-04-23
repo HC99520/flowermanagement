@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyg.flowermanagement.mapper.IEmployeeMapper">
+    <resultMap type="com.lyg.flowermanagement.entity.Employee" id="EmployeeMap">
+        <id property="empId" column="emp_id" jdbcType="VARCHAR"/>
+        <result property="shop.shopId" column="shop_id" jdbcType="INTEGER"/>
+        <result property="password" column="password" jdbcType="VARCHAR"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="birthday" column="birthday" jdbcType="VARCHAR"/>
+        <result property="tel" column="tel" jdbcType="VARCHAR"/>
+        <result property="email" column="email" jdbcType="VARCHAR"/>
+    </resultMap>
+    <select id="selectAll" resultType="com.lyg.flowermanagement.entity.Employee">
+        select * FROM employee
+    </select>
+    <select id="employeeLogin" resultMap="EmployeeMap">
+    select *
+	from employee
+	where emp_id=#{empId}
+	and password=#{password}
+    </select>
+</mapper>
