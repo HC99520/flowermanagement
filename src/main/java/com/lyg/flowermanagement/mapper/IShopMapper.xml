@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyg.flowermanagement.mapper.IShopMapper">
+    <resultMap id="ShopMap" type="com.lyg.flowermanagement.entity.Shop">
+        <id property="shopId" column="shop_id"/>
+        <result property="name" column="shopName"></result>
+        <result property="address" column="address"></result>
+    </resultMap>
+    <!--查看店铺的id和店铺名称-->
+    <select id="findByIdAndName" resultMap="ShopMap">
+  	SELECT shop.shop_id,shop.`name` as shopName FROM shop
+    </select>
+
+
+</mapper>

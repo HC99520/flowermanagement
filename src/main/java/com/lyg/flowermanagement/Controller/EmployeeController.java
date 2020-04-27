@@ -15,7 +15,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/EmployeeController")
 @CrossOrigin("*")
-class EmployeeController {
+public class EmployeeController {
     Log log= LogFactory.getLog(EmployeeController.class);
     @Autowired
     EmployeeService employeeService;
