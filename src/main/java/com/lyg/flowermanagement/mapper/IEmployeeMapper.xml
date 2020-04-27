@@ -6,19 +6,67 @@
     <resultMap type="com.lyg.flowermanagement.entity.Employee" id="EmployeeMap">
         <id property="empId" column="emp_id" jdbcType="VARCHAR"/>
         <result property="shop.shopId" column="shop_id" jdbcType="INTEGER"/>
+        <result property="shop.name" column="name" jdbcType="VARCHAR"/>
+        <result property="shop.address" column="address" jdbcType="VARCHAR"/>
         <result property="password" column="password" jdbcType="VARCHAR"/>
         <result property="name" column="name" jdbcType="VARCHAR"/>
         <result property="birthday" column="birthday" jdbcType="VARCHAR"/>
         <result property="tel" column="tel" jdbcType="VARCHAR"/>
         <result property="email" column="email" jdbcType="VARCHAR"/>
     </resultMap>
-    <select id="selectAll" resultType="com.lyg.flowermanagement.entity.Employee">
+    <select id="selectAll" resultMap="EmployeeMap">
         select * FROM employee
     </select>
+
     <select id="employeeLogin" resultMap="EmployeeMap">
     select *
 	from employee
 	where emp_id=#{empId}
 	and password=#{password}
     </select>
+    <!--员工重置密码 -->
+    <update id="resetPassword" parameterType="com.lyg.flowermanagement.entity.Employee">
+        update employee
+        <set>
+            <if test="password!=null"> `password`=123456</if>
+        </set>
+        where emp_id=#{empId}
+    </update>
+
+    <!--通过主键修改数据-->
+    <update id="update" >
+        update employee
+        <set>
+            <if test="password != null and password != ''">
+                password = #{password},
+            </if>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="shop!=null">
+            <if test="shop.shopId != null and shop.shopId != ''">
+                shop_id = #{shop.shopId},
+            </if>
+            </if>
+            <if test="birthday != null">
+                birthday = #{birthday},
+            </if>
+            <if test="tel != null">
+                tel = #{tel},
+            </if>
+            <if test="email != null">
+                email = #{email},
+            </if>
+        </set>
+        where emp_id=#{empId}
+    </update>
+    <!--通过empId删除-->
+    <delete id="deleteById" >
+        delete from employee where emp_id=#{empId}
+    </delete>
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="emp_id" useGeneratedKeys="true">
+        insert into employee(password, name, shop_id, birthday, tel, email,emp_id)
+        values (#{password}, #{name}, #{shop.shopId}, #{birthday}, #{tel}, #{email},#{empId})
+    </insert>
 </mapper>
