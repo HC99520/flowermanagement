@@ -6,16 +6,19 @@
     <resultMap type="com.lyg.flowermanagement.entity.Employee" id="EmployeeMap">
         <id property="empId" column="emp_id" jdbcType="VARCHAR"/>
         <result property="shop.shopId" column="shop_id" jdbcType="INTEGER"/>
-        <result property="shop.name" column="name" jdbcType="VARCHAR"/>
+        <result property="shop.name" column="shopName" jdbcType="VARCHAR"/>
         <result property="shop.address" column="address" jdbcType="VARCHAR"/>
         <result property="password" column="password" jdbcType="VARCHAR"/>
-        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="name" column="empName" jdbcType="VARCHAR"/>
         <result property="birthday" column="birthday" jdbcType="VARCHAR"/>
         <result property="tel" column="tel" jdbcType="VARCHAR"/>
         <result property="email" column="email" jdbcType="VARCHAR"/>
     </resultMap>
     <select id="selectAll" resultMap="EmployeeMap">
-        select * FROM employee
+   select employee.emp_id,employee.shop_id,shop.name as shopName,shop.address,employee.password,employee.`name` as empName,
+        employee.birthday,employee.tel,employee.email FROM employee inner join shop
+        on employee.shop_id=shop.shop_id
+
     </select>
 
     <select id="employeeLogin" resultMap="EmployeeMap">
