@@ -1,4 +1,4 @@
-package com.lyg.flowermanagement.Controller;
+package com.lyg.flowermanagement.controller;
 
 import com.lyg.flowermanagement.entity.Employee;
 import com.lyg.flowermanagement.service.EmployeeService;
@@ -27,12 +27,18 @@ public class EmployeeController {
         log.info(list);
         return  list;
     }
+    //测试地址:http://localhost:9000/web/EmployeeController/selectById?empId=1501
+    //根据id查询员工信息
+    @GetMapping("/selectById")
+    public Employee selectById(int empId){
+        return this.employeeService.selectEmpById(empId);
+    }
     //员工登录
     //测试地址:http://localhost:9000/web/EmployeeController/employeeLogin?empId=1501&&password=123456
-    @RequestMapping("/employeeLogin")
-    public  Map<String,String> employeeLogin(String empId,String password) {
+    @RequestMapping("/login")
+    public  Map<String,String> employeeLogin(String id,String password) {
         Map<String, String> map = new HashMap<>();
-        Employee employee = employeeService.employeeLogin(empId, password);
+        Employee employee = employeeService.employeeLogin(id, password);
         log.info(employee);
         //判断对象是否为空
         if (employee == null) {

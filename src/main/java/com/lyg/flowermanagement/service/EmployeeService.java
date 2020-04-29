@@ -20,6 +20,11 @@ public class EmployeeService implements IEmployeeMapper {
     }
 
     @Override
+    public Employee selectEmpById(int empId) {
+        return iEmployeeMapper.selectEmpById(empId);
+    }
+
+    @Override
     public Employee employeeLogin(String empId, String password) {
         return iEmployeeMapper.employeeLogin(empId,password);
     }

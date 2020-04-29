@@ -14,11 +14,17 @@
         <result property="tel" column="tel" jdbcType="VARCHAR"/>
         <result property="email" column="email" jdbcType="VARCHAR"/>
     </resultMap>
+
     <select id="selectAll" resultMap="EmployeeMap">
    select employee.emp_id,employee.shop_id,shop.name as shopName,shop.address,employee.password,employee.`name` as empName,
         employee.birthday,employee.tel,employee.email FROM employee inner join shop
         on employee.shop_id=shop.shop_id
+    </select>
 
+    <select id="selectEmpById" resultMap="EmployeeMap">
+        SELECT employee.emp_id,employee.shop_id,shop.name as shopName,shop.address,employee.password,employee.`name` as empName,
+                employee.birthday,employee.tel,employee.email
+         FROM employee INNER JOIN shop on employee.shop_id = shop.shop_id WHERE employee.emp_id=#{empId}
     </select>
 
     <select id="employeeLogin" resultMap="EmployeeMap">
@@ -31,13 +37,16 @@
     <update id="resetPassword" parameterType="com.lyg.flowermanagement.entity.Employee">
         update employee
         <set>
-            <if test="password!=null"> `password`=123456</if>
+            <if test="password==null">`password`=123456</if>
+        </set>
+        <set>
+            <if test="password!=null">`password`=#{password}</if>
         </set>
         where emp_id=#{empId}
     </update>
 
     <!--通过主键修改数据-->
-    <update id="update" >
+    <update id="update">
         update employee
         <set>
             <if test="password != null and password != ''">
@@ -47,9 +56,9 @@
                 name = #{name},
             </if>
             <if test="shop!=null">
-            <if test="shop.shopId != null and shop.shopId != ''">
-                shop_id = #{shop.shopId},
-            </if>
+                <if test="shop.shopId != null and shop.shopId != ''">
+                    shop_id = #{shop.shopId},
+                </if>
             </if>
             <if test="birthday != null">
                 birthday = #{birthday},
@@ -64,7 +73,7 @@
         where emp_id=#{empId}
     </update>
     <!--通过empId删除-->
-    <delete id="deleteById" >
+    <delete id="deleteById">
         delete from employee where emp_id=#{empId}
     </delete>
     <!--新增所有列-->

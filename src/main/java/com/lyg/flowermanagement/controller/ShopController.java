@@ -1,7 +1,6 @@
-package com.lyg.flowermanagement.Controller;
+package com.lyg.flowermanagement.controller;
 
 import com.lyg.flowermanagement.entity.Shop;
-import com.lyg.flowermanagement.service.EmployeeService;
 import com.lyg.flowermanagement.service.ShopService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
