@@ -1,5 +1,6 @@
 package com.lyg.flowermanagement.service;
 
+import com.lyg.flowermanagement.entity.Manager;
 import com.lyg.flowermanagement.mapper.IManagerMapper;
 import org.springframework.stereotype.Service;
 
@@ -34,8 +35,13 @@ public class ManagerService implements IManagerMapper {
     }
 
     @Override
-    public List<com.lyg.flowermanagement.entity.Manager> queryAll(com.lyg.flowermanagement.entity.Manager manager) {
-        return null;
+    public List<Manager> queryAll(com.lyg.flowermanagement.entity.Manager manager) {
+        return this.managerDao.queryAll(manager);
+    }
+
+    @Override
+    public List<Manager> selectAll() {
+        return this.managerDao.selectAll();
     }
 
     /**
@@ -69,5 +75,10 @@ public class ManagerService implements IManagerMapper {
     @Override
     public int deleteById(String managerId) {
         return this.managerDao.deleteById(managerId);
+    }
+
+    @Override
+    public int resetPassword(String managerId, String password) {
+        return this.managerDao.resetPassword(managerId, password);
     }
 }

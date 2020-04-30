@@ -20,7 +20,9 @@
     <select id="login" resultMap="ManagerMap">
         SELECT *  FROM manager WHERE manager_id=#{id} AND password=#{password}
     </select>
-
+    <select id="selectAll" resultMap="ManagerMap">
+        select * from  manager
+    </select>
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="ManagerMap">
         select
@@ -47,14 +49,17 @@
 
     <!--新增所有列-->
     <insert id="insert" keyProperty="managerId" useGeneratedKeys="true">
-        insert into flowermanagement.manager(password, name, tel, email)
-        values (#{password}, #{name}, #{tel}, #{email})
+        insert into flowermanagement.manager(manager_id,password, name, tel, email)
+        values (#{managerId},#{password}, #{name}, #{tel}, #{email})
     </insert>
 
     <!--通过主键修改数据-->
     <update id="update">
         update flowermanagement.manager
         <set>
+         <if test="managerId != null and managerId != ''">
+             manager_id = #{managerId},
+        </if>
             <if test="password != null and password != ''">
                 password = #{password},
             </if>
@@ -75,5 +80,15 @@
     <delete id="deleteById">
         delete from flowermanagement.manager where manager_id = #{managerId}
     </delete>
-
+    <!--店主重置密码 -->
+    <update id="resetPassword" parameterType="com.lyg.flowermanagement.entity.Manager">
+        update manager
+        <set>
+            <if test="password==null">`password`=123456</if>
+        </set>
+        <set>
+            <if test="password!=null">`password`=#{password}</if>
+        </set>
+        where manager_id=#{managerId}
+    </update>
 </mapper>
