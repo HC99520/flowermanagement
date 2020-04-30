@@ -1,5 +1,6 @@
 package com.lyg.flowermanagement.controller;
 
+import com.lyg.flowermanagement.entity.Repertory;
 import com.lyg.flowermanagement.entity.Shop;
 import com.lyg.flowermanagement.service.ShopService;
 import org.apache.commons.logging.Log;
@@ -27,5 +28,11 @@ public class ShopController {
         log.info(list);
         return list;
 
+    }
+    //测试地址：http://localhost:9000/web/ShopController/selectOne?id=1
+    @GetMapping("selectOne")
+    public Shop selectOne(Integer id) {
+
+        return this.shopService.queryById(id);
     }
 }

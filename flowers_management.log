@@ -9817,3 +9817,1527 @@ INFO 2020-04-30 20:25:17 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 
 INFO 2020-04-30 20:25:17 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
 INFO 2020-04-30 20:25:17 p6spy.logSQL 60 :1588249517931|74|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select           manager_id, password, name, tel, email         from flowermanagement.manager         where manager_id = ?|select           manager_id, password, name, tel, email         from flowermanagement.manager         where manager_id = '1001'
 INFO 2020-04-30 20:25:17 c.l.f.a.PerformanceAspect.logPerformance 30 :ManagerService.queryById(..);Y;854ms
+INFO 2020-04-30 21:30:47 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 33368 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 21:30:47 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 21:30:48 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 21:30:48 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 21:30:50 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 21:30:50 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 21:30:50 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:30:51 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:30:51 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 3264 ms
+WARN 2020-04-30 21:30:52 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh 558 :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'repertoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lyg.flowermanagement.service.RepertoryService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+INFO 2020-04-30 21:30:52 o.a.c.c.StandardService.log 173 :Stopping service [Tomcat]
+INFO 2020-04-30 21:30:52 o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage 136 :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 2020-04-30 21:30:53 o.s.b.d.LoggingFailureAnalysisReporter.report 40 :
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.lyg.flowermanagement.service.RepertoryService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.lyg.flowermanagement.service.RepertoryService' in your configuration.
+
+INFO 2020-04-30 21:31:54 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 33796 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 21:31:54 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 21:31:54 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 21:31:54 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 21:31:55 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 21:31:55 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 21:31:55 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:31:55 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:31:55 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1447 ms
+WARN 2020-04-30 21:31:56 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh 558 :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'repertoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lyg.flowermanagement.service.RepertoryService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+INFO 2020-04-30 21:31:56 o.a.c.c.StandardService.log 173 :Stopping service [Tomcat]
+INFO 2020-04-30 21:31:56 o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage 136 :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 2020-04-30 21:31:56 o.s.b.d.LoggingFailureAnalysisReporter.report 40 :
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.lyg.flowermanagement.service.RepertoryService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.lyg.flowermanagement.service.RepertoryService' in your configuration.
+
+INFO 2020-04-30 21:32:28 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 23924 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 21:32:28 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 21:32:28 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 21:32:28 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 21:32:29 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 21:32:29 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 21:32:29 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:32:30 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:32:30 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1503 ms
+WARN 2020-04-30 21:32:30 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh 558 :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'repertoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lyg.flowermanagement.service.RepertoryService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+INFO 2020-04-30 21:32:30 o.a.c.c.StandardService.log 173 :Stopping service [Tomcat]
+INFO 2020-04-30 21:32:30 o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage 136 :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 2020-04-30 21:32:30 o.s.b.d.LoggingFailureAnalysisReporter.report 40 :
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.lyg.flowermanagement.service.RepertoryService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.lyg.flowermanagement.service.RepertoryService' in your configuration.
+
+INFO 2020-04-30 21:33:26 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 38304 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 21:33:26 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 21:33:26 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 21:33:26 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 21:33:27 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 21:33:27 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 21:33:27 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:33:27 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:33:27 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1410 ms
+WARN 2020-04-30 21:33:27 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh 558 :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'repertoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lyg.flowermanagement.service.RepertoryService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+INFO 2020-04-30 21:33:27 o.a.c.c.StandardService.log 173 :Stopping service [Tomcat]
+INFO 2020-04-30 21:33:27 o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage 136 :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 2020-04-30 21:33:28 o.s.b.d.LoggingFailureAnalysisReporter.report 40 :
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.lyg.flowermanagement.service.RepertoryService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.lyg.flowermanagement.service.RepertoryService' in your configuration.
+
+INFO 2020-04-30 21:36:16 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 35792 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 21:36:16 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 21:36:16 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 21:36:16 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 21:36:18 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 21:36:18 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 21:36:18 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:36:18 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:36:18 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1447 ms
+INFO 2020-04-30 21:36:18 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:36:19 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 21:36:19 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 21:36:19 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.852 seconds (JVM running for 4.179)
+INFO 2020-04-30 21:37:01 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 21:37:01 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 21:37:01 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 20 ms
+INFO 2020-04-30 21:37:01 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.queryById(..);N;25ms
+ERROR 2020-04-30 21:37:01 o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [/web] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.lyg.flowermanagement.mapper.IERepertoryMapper.queryById] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.lyg.flowermanagement.mapper.IERepertoryMapper.queryById
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:98)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:97)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:92)
+	at com.sun.proxy.$Proxy81.queryById(Unknown Source)
+	at com.lyg.flowermanagement.service.RepertoryService.queryById(RepertoryService.java:23)
+	at com.lyg.flowermanagement.service.RepertoryService$$FastClassBySpringCGLIB$$2a7d1531.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lyg.flowermanagement.aspect.PerformanceAspect.logPerformance(PerformanceAspect.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.lyg.flowermanagement.service.RepertoryService$$EnhancerBySpringCGLIB$$152e5e5f.queryById(<generated>)
+	at com.lyg.flowermanagement.controller.RepertoryController.selectOne(RepertoryController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 2020-04-30 21:38:56 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.queryById(..);N;0ms
+ERROR 2020-04-30 21:38:56 o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [/web] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.lyg.flowermanagement.mapper.IERepertoryMapper.queryById] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.lyg.flowermanagement.mapper.IERepertoryMapper.queryById
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:98)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:97)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:92)
+	at com.sun.proxy.$Proxy81.queryById(Unknown Source)
+	at com.lyg.flowermanagement.service.RepertoryService.queryById(RepertoryService.java:23)
+	at com.lyg.flowermanagement.service.RepertoryService$$FastClassBySpringCGLIB$$2a7d1531.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lyg.flowermanagement.aspect.PerformanceAspect.logPerformance(PerformanceAspect.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.lyg.flowermanagement.service.RepertoryService$$EnhancerBySpringCGLIB$$152e5e5f.queryById(<generated>)
+	at com.lyg.flowermanagement.controller.RepertoryController.selectOne(RepertoryController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 2020-04-30 21:40:04 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 20476 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 21:40:04 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 21:40:04 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 21:40:04 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 21:40:05 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 21:40:05 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 21:40:05 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:40:05 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:40:05 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1391 ms
+INFO 2020-04-30 21:40:06 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:40:06 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 21:40:06 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 21:40:06 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.816 seconds (JVM running for 4.05)
+INFO 2020-04-30 21:40:14 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 21:40:14 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 21:40:14 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 11 ms
+INFO 2020-04-30 21:40:14 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 21:40:15 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 21:40:15 p6spy.logSQL 60 :1588254015287|63|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select           rep_id, shop_id, commodity, quantity, surplus, price, save_date         from flowermanagement.repertory         where rep_id = ?|select           rep_id, shop_id, commodity, quantity, surplus, price, save_date         from flowermanagement.repertory         where rep_id = 1
+INFO 2020-04-30 21:40:15 p6spy.logSQL 60 :1588254015415|71|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select *         from flowermanagement.course         where id = ?|select *         from flowermanagement.course         where id = 1
+INFO 2020-04-30 21:40:15 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.queryById(..);N;1332ms
+ERROR 2020-04-30 21:40:15 o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [/web] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'flowermanagement.course' doesn't exist
+### The error may exist in com/lyg/flowermanagement/mapper/IShopMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select *         from flowermanagement.course         where id = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'flowermanagement.course' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'flowermanagement.course' doesn't exist] with root cause
+java.sql.SQLSyntaxErrorException: Table 'flowermanagement.course' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.p6spy.engine.wrapper.PreparedStatementWrapper.execute(PreparedStatementWrapper.java:362)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.loader.ResultLoader.selectList(ResultLoader.java:81)
+	at org.apache.ibatis.executor.loader.ResultLoader.loadResult(ResultLoader.java:70)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.getNestedQueryMappingValue(DefaultResultSetHandler.java:760)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.getPropertyMappingValue(DefaultResultSetHandler.java:465)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.applyPropertyMappings(DefaultResultSetHandler.java:441)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.getRowValue(DefaultResultSetHandler.java:404)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValuesForSimpleResultMap(DefaultResultSetHandler.java:354)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValues(DefaultResultSetHandler.java:328)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSet(DefaultResultSetHandler.java:301)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSets(DefaultResultSetHandler.java:194)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy77.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy81.queryById(Unknown Source)
+	at com.lyg.flowermanagement.service.RepertoryService.queryById(RepertoryService.java:23)
+	at com.lyg.flowermanagement.service.RepertoryService$$FastClassBySpringCGLIB$$2a7d1531.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lyg.flowermanagement.aspect.PerformanceAspect.logPerformance(PerformanceAspect.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.lyg.flowermanagement.service.RepertoryService$$EnhancerBySpringCGLIB$$dfde3106.queryById(<generated>)
+	at com.lyg.flowermanagement.controller.RepertoryController.selectOne(RepertoryController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 2020-04-30 21:40:58 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 24108 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 21:40:58 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 21:40:58 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 21:40:58 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 21:41:00 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 21:41:00 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 21:41:00 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:41:00 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:41:00 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1429 ms
+INFO 2020-04-30 21:41:00 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:41:01 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 21:41:01 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 21:41:01 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.8 seconds (JVM running for 4.057)
+INFO 2020-04-30 21:41:16 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 21:41:16 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 21:41:16 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 8 ms
+INFO 2020-04-30 21:41:16 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 21:41:17 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 21:41:17 p6spy.logSQL 60 :1588254077091|67|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select           rep_id, shop_id, commodity, quantity, surplus, price, save_date         from flowermanagement.repertory         where rep_id = ?|select           rep_id, shop_id, commodity, quantity, surplus, price, save_date         from flowermanagement.repertory         where rep_id = 1
+INFO 2020-04-30 21:41:17 p6spy.logSQL 60 :1588254077174|70|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select *         from flowermanagement.shop         where id = ?|select *         from flowermanagement.shop         where id = 1
+INFO 2020-04-30 21:41:17 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.queryById(..);N;958ms
+ERROR 2020-04-30 21:41:17 o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [/web] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+### The error may exist in com/lyg/flowermanagement/mapper/IShopMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select *         from flowermanagement.shop         where id = ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'] with root cause
+java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.p6spy.engine.wrapper.PreparedStatementWrapper.execute(PreparedStatementWrapper.java:362)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.loader.ResultLoader.selectList(ResultLoader.java:81)
+	at org.apache.ibatis.executor.loader.ResultLoader.loadResult(ResultLoader.java:70)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.getNestedQueryMappingValue(DefaultResultSetHandler.java:760)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.getPropertyMappingValue(DefaultResultSetHandler.java:465)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.applyPropertyMappings(DefaultResultSetHandler.java:441)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.getRowValue(DefaultResultSetHandler.java:404)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValuesForSimpleResultMap(DefaultResultSetHandler.java:354)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValues(DefaultResultSetHandler.java:328)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSet(DefaultResultSetHandler.java:301)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSets(DefaultResultSetHandler.java:194)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy77.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy81.queryById(Unknown Source)
+	at com.lyg.flowermanagement.service.RepertoryService.queryById(RepertoryService.java:23)
+	at com.lyg.flowermanagement.service.RepertoryService$$FastClassBySpringCGLIB$$2a7d1531.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lyg.flowermanagement.aspect.PerformanceAspect.logPerformance(PerformanceAspect.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.lyg.flowermanagement.service.RepertoryService$$EnhancerBySpringCGLIB$$fabd62e8.queryById(<generated>)
+	at com.lyg.flowermanagement.controller.RepertoryController.selectOne(RepertoryController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 2020-04-30 21:41:50 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 21740 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 21:41:50 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 21:41:51 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 21:41:51 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 21:41:52 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 21:41:52 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 21:41:52 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:41:52 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:41:52 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1446 ms
+INFO 2020-04-30 21:41:53 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:41:53 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 21:41:53 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 21:41:53 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.827 seconds (JVM running for 4.086)
+INFO 2020-04-30 21:41:59 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 21:41:59 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 21:41:59 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 11 ms
+INFO 2020-04-30 21:41:59 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 21:42:00 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 21:42:00 p6spy.logSQL 60 :1588254120547|66|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select           rep_id, shop_id, commodity, quantity, surplus, price, save_date         from flowermanagement.repertory         where rep_id = ?|select           rep_id, shop_id, commodity, quantity, surplus, price, save_date         from flowermanagement.repertory         where rep_id = 1
+INFO 2020-04-30 21:42:00 p6spy.logSQL 60 :1588254120605|46|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select *         from flowermanagement.shop         where shop_id = ?|select *         from flowermanagement.shop         where shop_id = 1
+INFO 2020-04-30 21:42:00 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.queryById(..);Y;880ms
+INFO 2020-04-30 21:44:47 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 20424 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 21:44:47 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 21:44:47 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 21:44:47 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 21:44:49 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 21:44:49 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 21:44:49 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:44:49 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:44:49 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1617 ms
+INFO 2020-04-30 21:44:49 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:44:50 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 21:44:50 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 21:44:50 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.982 seconds (JVM running for 4.242)
+INFO 2020-04-30 21:45:09 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 21:45:09 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 21:45:09 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 9 ms
+INFO 2020-04-30 21:45:10 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 21:45:10 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 21:45:10 p6spy.logSQL 60 :1588254310854|73|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select           rep_id, shop_id, commodity, quantity, surplus, price, save_date         from flowermanagement.repertory         where rep_id = ?|select           rep_id, shop_id, commodity, quantity, surplus, price, save_date         from flowermanagement.repertory         where rep_id = 1
+INFO 2020-04-30 21:45:10 p6spy.logSQL 60 :1588254310930|62|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select shop.shop_id,shop.`name`,shop.address         from flowermanagement.shop         where shop_id = ?|select shop.shop_id,shop.`name`,shop.address         from flowermanagement.shop         where shop_id = 1
+INFO 2020-04-30 21:45:10 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.queryById(..);Y;928ms
+INFO 2020-04-30 21:47:37 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 38664 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 21:47:37 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 21:47:37 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 21:47:37 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 21:47:38 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 21:47:38 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 21:47:38 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:47:38 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:47:38 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1718 ms
+INFO 2020-04-30 21:47:39 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:47:39 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 21:47:39 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 21:47:39 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 3.215 seconds (JVM running for 4.676)
+INFO 2020-04-30 21:48:22 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 21:48:22 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 21:48:22 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 8 ms
+INFO 2020-04-30 21:48:22 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 21:48:23 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 21:48:23 p6spy.logSQL 60 :1588254503329|74|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select shop.shop_id,shop.`name`,shop.address         from flowermanagement.shop         where shop_id = ?|select shop.shop_id,shop.`name`,shop.address         from flowermanagement.shop         where shop_id = 1
+INFO 2020-04-30 21:48:23 c.l.f.a.PerformanceAspect.logPerformance 30 :ShopService.queryById(..);Y;913ms
+INFO 2020-04-30 21:50:23 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 5896 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 21:50:23 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 21:50:23 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 21:50:23 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 21:50:25 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 21:50:25 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 21:50:25 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:50:25 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:50:25 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1434 ms
+INFO 2020-04-30 21:50:26 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:50:26 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 21:50:26 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 21:50:26 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.975 seconds (JVM running for 4.175)
+INFO 2020-04-30 21:50:29 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 21:50:29 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 21:50:29 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 10 ms
+INFO 2020-04-30 21:50:29 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 21:50:30 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 21:50:30 p6spy.logSQL 60 :1588254630691|76|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select shop.shop_id,shop.`name` as shopName,shop.address         from flowermanagement.shop         where shop_id = ?|select shop.shop_id,shop.`name` as shopName,shop.address         from flowermanagement.shop         where shop_id = 1
+INFO 2020-04-30 21:50:30 c.l.f.a.PerformanceAspect.logPerformance 30 :ShopService.queryById(..);Y;840ms
+INFO 2020-04-30 21:51:11 p6spy.logSQL 60 :1588254671638|70|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select           rep_id, shop_id, commodity, quantity, surplus, price, save_date         from flowermanagement.repertory         where rep_id = ?|select           rep_id, shop_id, commodity, quantity, surplus, price, save_date         from flowermanagement.repertory         where rep_id = 1
+INFO 2020-04-30 21:51:11 p6spy.logSQL 60 :1588254671714|72|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select shop.shop_id,shop.`name` as shopName,shop.address         from flowermanagement.shop         where shop_id = ?|select shop.shop_id,shop.`name` as shopName,shop.address         from flowermanagement.shop         where shop_id = 1
+INFO 2020-04-30 21:51:11 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.queryById(..);Y;216ms
+INFO 2020-04-30 21:57:04 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 38380 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 21:57:04 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 21:57:04 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 21:57:04 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 21:57:05 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 21:57:05 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 21:57:05 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 21:57:05 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 21:57:05 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1380 ms
+INFO 2020-04-30 21:57:06 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 21:57:06 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 21:57:06 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 21:57:06 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.729 seconds (JVM running for 3.942)
+INFO 2020-04-30 21:59:15 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 21:59:15 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 21:59:15 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 7 ms
+WARN 2020-04-30 21:59:15 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException 199 :Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'repertory' on field 'saveDate': rejected value [2020]; codes [typeMismatch.repertory.saveDate,typeMismatch.saveDate,typeMismatch.java.util.Date,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [repertory.saveDate,saveDate]; arguments []; default message [saveDate]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.util.Date' for property 'saveDate'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.util.Date] for value '2020'; nested exception is java.lang.IllegalArgumentException]]
+INFO 2020-04-30 21:59:32 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 21:59:33 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 21:59:33 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.insert(..);N;735ms
+ERROR 2020-04-30 21:59:33 o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [/web] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'shopId' in 'class com.lyg.flowermanagement.entity.Repertory'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'shopId' in 'class com.lyg.flowermanagement.entity.Repertory'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:373)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:163)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:162)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:49)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:122)
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:79)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:94)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:64)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:88)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy77.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy81.insert(Unknown Source)
+	at com.lyg.flowermanagement.service.RepertoryService.insert(RepertoryService.java:38)
+	at com.lyg.flowermanagement.service.RepertoryService$$FastClassBySpringCGLIB$$2a7d1531.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lyg.flowermanagement.aspect.PerformanceAspect.logPerformance(PerformanceAspect.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.lyg.flowermanagement.service.RepertoryService$$EnhancerBySpringCGLIB$$ac00d35e.insert(<generated>)
+	at com.lyg.flowermanagement.controller.RepertoryController.insert(RepertoryController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 2020-04-30 22:00:43 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 20140 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 22:00:43 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 22:00:43 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 22:00:43 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 22:00:44 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 22:00:44 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 22:00:44 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:00:44 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:00:44 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1379 ms
+INFO 2020-04-30 22:00:45 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:00:45 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 22:00:45 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 22:00:45 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.76 seconds (JVM running for 4.011)
+INFO 2020-04-30 22:01:20 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 22:01:20 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 22:01:20 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 7 ms
+INFO 2020-04-30 22:01:20 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 22:01:21 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 22:01:21 p6spy.logSQL 60 :1588255281346|150|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)         values (?,?, ?, ?, ?, ?, ?)|insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)         values (10,NULL, '''玫瑰''', 200, 200, 200.0, '2021-08-20T00:00:00.000+0800')
+INFO 2020-04-30 22:01:21 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.insert(..);Y;942ms
+INFO 2020-04-30 22:02:21 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.insert(..);N;60ms
+ERROR 2020-04-30 22:02:21 o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [/web] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'id' in 'class com.lyg.flowermanagement.entity.Shop'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'id' in 'class com.lyg.flowermanagement.entity.Shop'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:373)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:163)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:162)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:49)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:122)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:119)
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:79)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:94)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:64)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:88)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy77.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy81.insert(Unknown Source)
+	at com.lyg.flowermanagement.service.RepertoryService.insert(RepertoryService.java:38)
+	at com.lyg.flowermanagement.service.RepertoryService$$FastClassBySpringCGLIB$$2a7d1531.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lyg.flowermanagement.aspect.PerformanceAspect.logPerformance(PerformanceAspect.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.lyg.flowermanagement.service.RepertoryService$$EnhancerBySpringCGLIB$$e40c803f.insert(<generated>)
+	at com.lyg.flowermanagement.controller.RepertoryController.insert(RepertoryController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 2020-04-30 22:02:50 p6spy.logSQL 60 :1588255370048|108|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)         values (?,?, ?, ?, ?, ?, ?)|insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)         values (11,NULL, '''玫瑰''', 200, 200, 200.0, '2021-08-20T00:00:00.000+0800')
+INFO 2020-04-30 22:02:50 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.insert(..);Y;179ms
+INFO 2020-04-30 22:03:41 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.insert(..);N;57ms
+ERROR 2020-04-30 22:03:41 o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [/web] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'id' in 'class com.lyg.flowermanagement.entity.Shop'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'id' in 'class com.lyg.flowermanagement.entity.Shop'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:373)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:163)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:162)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:49)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:122)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:119)
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:79)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:94)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:64)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:88)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy77.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy81.insert(Unknown Source)
+	at com.lyg.flowermanagement.service.RepertoryService.insert(RepertoryService.java:38)
+	at com.lyg.flowermanagement.service.RepertoryService$$FastClassBySpringCGLIB$$2a7d1531.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lyg.flowermanagement.aspect.PerformanceAspect.logPerformance(PerformanceAspect.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.lyg.flowermanagement.service.RepertoryService$$EnhancerBySpringCGLIB$$e40c803f.insert(<generated>)
+	at com.lyg.flowermanagement.controller.RepertoryController.insert(RepertoryController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 2020-04-30 22:04:40 p6spy.logSQL 60 :1588255480935|109|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)         values (?,?, ?, ?, ?, ?, ?)|insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)         values (12,NULL, '''玫瑰''', 200, 200, 200.0, '2021-08-20T00:00:00.000+0800')
+INFO 2020-04-30 22:04:40 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.insert(..);Y;172ms
+INFO 2020-04-30 22:07:23 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 29264 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 22:07:23 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 22:07:23 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 22:07:23 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 22:07:25 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 22:07:25 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 22:07:25 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:07:25 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:07:25 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1604 ms
+INFO 2020-04-30 22:07:26 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:07:26 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 22:07:26 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 22:07:26 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 3.133 seconds (JVM running for 5.03)
+INFO 2020-04-30 22:07:30 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 22:07:30 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 22:07:30 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 8 ms
+INFO 2020-04-30 22:07:31 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 22:07:31 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 22:07:31 p6spy.logSQL 60 :1588255651863|118|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)         values (?,?, ?, ?, ?, ?, ?)|insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)         values (13,NULL, '''玫瑰''', 200, 200, 200.0, '2021-08-20T00:00:00.000+0800')
+INFO 2020-04-30 22:07:31 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.insert(..);Y;894ms
+INFO 2020-04-30 22:08:55 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.insert(..);N;76ms
+ERROR 2020-04-30 22:08:55 o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [/web] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'id' in 'class com.lyg.flowermanagement.entity.Shop'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'id' in 'class com.lyg.flowermanagement.entity.Shop'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:373)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:163)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:162)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:49)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:122)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:119)
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:79)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:94)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:64)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:88)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy77.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy81.insert(Unknown Source)
+	at com.lyg.flowermanagement.service.RepertoryService.insert(RepertoryService.java:38)
+	at com.lyg.flowermanagement.service.RepertoryService$$FastClassBySpringCGLIB$$2a7d1531.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lyg.flowermanagement.aspect.PerformanceAspect.logPerformance(PerformanceAspect.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.lyg.flowermanagement.service.RepertoryService$$EnhancerBySpringCGLIB$$f1f2381f.insert(<generated>)
+	at com.lyg.flowermanagement.controller.RepertoryController.insert(RepertoryController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 2020-04-30 22:09:48 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 36448 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 22:09:48 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 22:09:48 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 22:09:48 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 22:09:50 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 22:09:50 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 22:09:50 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:09:50 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:09:50 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1721 ms
+INFO 2020-04-30 22:09:51 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:09:51 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 22:09:51 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 22:09:51 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 3.214 seconds (JVM running for 4.758)
+INFO 2020-04-30 22:09:55 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 22:09:55 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 22:09:55 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 8 ms
+INFO 2020-04-30 22:09:55 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 22:09:56 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 22:09:56 p6spy.logSQL 60 :1588255796212|112|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)         values (?,?, ?, ?, ?, ?, ?)|insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)         values (14,3, '''玫瑰''', 200, 200, 200.0, '2021-08-20T00:00:00.000+0800')
+INFO 2020-04-30 22:09:56 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.insert(..);Y;840ms
+INFO 2020-04-30 22:14:07 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 36440 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 22:14:07 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 22:14:07 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 22:14:07 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 22:14:09 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 22:14:09 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 22:14:09 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:14:09 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:14:09 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1486 ms
+INFO 2020-04-30 22:14:09 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:14:10 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 22:14:10 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 22:14:10 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.871 seconds (JVM running for 4.077)
+INFO 2020-04-30 22:14:19 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 22:14:19 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 22:14:19 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 10 ms
+INFO 2020-04-30 22:14:19 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 22:14:20 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 22:14:20 p6spy.logSQL 60 :1588256060489|135|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)         values (?,?, ?, ?, ?, ?, ?)|insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)         values (15,3, '''玫瑰''', 200, 200, 200.0, '2020-04-30 22:14:19')
+INFO 2020-04-30 22:14:20 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.insert(..);Y;909ms
+INFO 2020-04-30 22:16:21 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 13064 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 22:16:21 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 22:16:21 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 22:16:21 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 22:16:23 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 22:16:23 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 22:16:23 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:16:23 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:16:23 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 2324 ms
+INFO 2020-04-30 22:16:24 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:16:24 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 22:16:24 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 22:16:24 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 4.011 seconds (JVM running for 5.33)
+INFO 2020-04-30 22:18:08 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 22:18:08 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 22:18:08 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 11 ms
+INFO 2020-04-30 22:18:08 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.update(..);N;81ms
+ERROR 2020-04-30 22:18:08 o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [/web] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'shopId' in 'class com.lyg.flowermanagement.entity.Repertory'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'shopId' in 'class com.lyg.flowermanagement.entity.Repertory'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:373)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:163)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:162)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:49)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:122)
+	at org.apache.ibatis.scripting.xmltags.DynamicContext$ContextMap.get(DynamicContext.java:102)
+	at org.apache.ibatis.scripting.xmltags.DynamicContext$ContextAccessor.getProperty(DynamicContext.java:113)
+	at org.apache.ibatis.ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2719)
+	at org.apache.ibatis.ognl.ASTProperty.getValueBody(ASTProperty.java:114)
+	at org.apache.ibatis.ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at org.apache.ibatis.ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at org.apache.ibatis.ognl.ASTNotEq.getValueBody(ASTNotEq.java:50)
+	at org.apache.ibatis.ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at org.apache.ibatis.ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at org.apache.ibatis.ognl.Ognl.getValue(Ognl.java:493)
+	at org.apache.ibatis.ognl.Ognl.getValue(Ognl.java:457)
+	at org.apache.ibatis.scripting.xmltags.OgnlCache.getValue(OgnlCache.java:46)
+	at org.apache.ibatis.scripting.xmltags.ExpressionEvaluator.evaluateBoolean(ExpressionEvaluator.java:32)
+	at org.apache.ibatis.scripting.xmltags.IfSqlNode.apply(IfSqlNode.java:34)
+	at org.apache.ibatis.scripting.xmltags.MixedSqlNode.lambda$apply$0(MixedSqlNode.java:32)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.ibatis.scripting.xmltags.MixedSqlNode.apply(MixedSqlNode.java:32)
+	at org.apache.ibatis.scripting.xmltags.TrimSqlNode.apply(TrimSqlNode.java:55)
+	at org.apache.ibatis.scripting.xmltags.MixedSqlNode.lambda$apply$0(MixedSqlNode.java:32)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.ibatis.scripting.xmltags.MixedSqlNode.apply(MixedSqlNode.java:32)
+	at org.apache.ibatis.scripting.xmltags.DynamicSqlSource.getBoundSql(DynamicSqlSource.java:39)
+	at org.apache.ibatis.mapping.MappedStatement.getBoundSql(MappedStatement.java:297)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.<init>(BaseStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.<init>(PreparedStatementHandler.java:41)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.<init>(RoutingStatementHandler.java:46)
+	at org.apache.ibatis.session.Configuration.newStatementHandler(Configuration.java:592)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy77.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:287)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy81.update(Unknown Source)
+	at com.lyg.flowermanagement.service.RepertoryService.update(RepertoryService.java:43)
+	at com.lyg.flowermanagement.service.RepertoryService$$FastClassBySpringCGLIB$$2a7d1531.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lyg.flowermanagement.aspect.PerformanceAspect.logPerformance(PerformanceAspect.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.lyg.flowermanagement.service.RepertoryService$$EnhancerBySpringCGLIB$$d529f2b1.update(<generated>)
+	at com.lyg.flowermanagement.controller.RepertoryController.update(RepertoryController.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 2020-04-30 22:18:39 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 19988 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 22:18:39 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 22:18:39 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 22:18:39 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 22:18:40 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 22:18:40 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 22:18:40 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:18:40 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:18:40 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1484 ms
+INFO 2020-04-30 22:18:41 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:18:41 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 22:18:41 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 22:18:41 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.803 seconds (JVM running for 4.104)
+INFO 2020-04-30 22:18:49 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 22:18:49 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 22:18:49 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 9 ms
+INFO 2020-04-30 22:18:49 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.update(..);N;34ms
+ERROR 2020-04-30 22:18:49 o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [/web] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'shopId' in 'class com.lyg.flowermanagement.entity.Repertory'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'shopId' in 'class com.lyg.flowermanagement.entity.Repertory'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:373)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:163)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:162)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:49)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:122)
+	at org.apache.ibatis.scripting.xmltags.DynamicContext$ContextMap.get(DynamicContext.java:102)
+	at org.apache.ibatis.scripting.xmltags.DynamicContext$ContextAccessor.getProperty(DynamicContext.java:113)
+	at org.apache.ibatis.ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2719)
+	at org.apache.ibatis.ognl.ASTProperty.getValueBody(ASTProperty.java:114)
+	at org.apache.ibatis.ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at org.apache.ibatis.ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at org.apache.ibatis.ognl.ASTNotEq.getValueBody(ASTNotEq.java:50)
+	at org.apache.ibatis.ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at org.apache.ibatis.ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at org.apache.ibatis.ognl.Ognl.getValue(Ognl.java:493)
+	at org.apache.ibatis.ognl.Ognl.getValue(Ognl.java:457)
+	at org.apache.ibatis.scripting.xmltags.OgnlCache.getValue(OgnlCache.java:46)
+	at org.apache.ibatis.scripting.xmltags.ExpressionEvaluator.evaluateBoolean(ExpressionEvaluator.java:32)
+	at org.apache.ibatis.scripting.xmltags.IfSqlNode.apply(IfSqlNode.java:34)
+	at org.apache.ibatis.scripting.xmltags.MixedSqlNode.lambda$apply$0(MixedSqlNode.java:32)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.ibatis.scripting.xmltags.MixedSqlNode.apply(MixedSqlNode.java:32)
+	at org.apache.ibatis.scripting.xmltags.TrimSqlNode.apply(TrimSqlNode.java:55)
+	at org.apache.ibatis.scripting.xmltags.MixedSqlNode.lambda$apply$0(MixedSqlNode.java:32)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.apache.ibatis.scripting.xmltags.MixedSqlNode.apply(MixedSqlNode.java:32)
+	at org.apache.ibatis.scripting.xmltags.DynamicSqlSource.getBoundSql(DynamicSqlSource.java:39)
+	at org.apache.ibatis.mapping.MappedStatement.getBoundSql(MappedStatement.java:297)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.<init>(BaseStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.<init>(PreparedStatementHandler.java:41)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.<init>(RoutingStatementHandler.java:46)
+	at org.apache.ibatis.session.Configuration.newStatementHandler(Configuration.java:592)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy77.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:287)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy81.update(Unknown Source)
+	at com.lyg.flowermanagement.service.RepertoryService.update(RepertoryService.java:43)
+	at com.lyg.flowermanagement.service.RepertoryService$$FastClassBySpringCGLIB$$2a7d1531.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.lyg.flowermanagement.aspect.PerformanceAspect.logPerformance(PerformanceAspect.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.lyg.flowermanagement.service.RepertoryService$$EnhancerBySpringCGLIB$$26d00c67.update(<generated>)
+	at com.lyg.flowermanagement.controller.RepertoryController.update(RepertoryController.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO 2020-04-30 22:19:10 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 1208 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 22:19:10 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 22:19:10 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 22:19:10 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 22:19:12 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 22:19:12 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 22:19:12 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:19:12 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:19:12 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1426 ms
+INFO 2020-04-30 22:19:12 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:19:12 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 22:19:12 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 22:19:12 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.776 seconds (JVM running for 4.065)
+INFO 2020-04-30 22:19:21 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 22:19:21 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 22:19:21 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 9 ms
+INFO 2020-04-30 22:19:21 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 22:19:22 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 22:19:22 p6spy.logSQL 60 :1588256362290|128|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|update flowermanagement.repertory          SET shop_id = ?,                                           commodity = ?,                                           quantity = ?,                                           surplus = ?,                                           price = ?,                                           save_date = ?          where rep_id = ?|update flowermanagement.repertory          SET shop_id = 3,                                           commodity = '''玫瑰''',                                           quantity = 200,                                           surplus = 200,                                           price = 200.0,                                           save_date = '2020/04/01'          where rep_id = 13
+INFO 2020-04-30 22:19:22 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.update(..);Y;903ms
+INFO 2020-04-30 22:21:09 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 5284 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 22:21:09 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 22:21:09 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 22:21:09 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 22:21:11 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 22:21:11 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 22:21:11 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:21:11 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:21:11 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1479 ms
+INFO 2020-04-30 22:21:12 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:21:12 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 22:21:12 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 22:21:12 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.93 seconds (JVM running for 4.592)
+INFO 2020-04-30 22:21:14 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 22:21:14 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 22:21:14 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 9 ms
+INFO 2020-04-30 22:21:14 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 22:21:15 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 22:21:15 p6spy.logSQL 60 :1588256475568|118|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|delete from flowermanagement.repertory where rep_id = ?|delete from flowermanagement.repertory where rep_id = 15
+INFO 2020-04-30 22:21:15 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.deleteById(..);Y;945ms
+INFO 2020-04-30 22:24:50 c.l.f.FlowermanagementApplication.logStarting 55 :Starting FlowermanagementApplication on DESKTOP-5E5VM1J with PID 32196 (D:\IdeaMavenProject\flowermanagement\target\classes started by www19 in D:\IdeaMavenProject\flowermanagement)
+INFO 2020-04-30 22:24:50 c.l.f.FlowermanagementApplication.logStartupProfileInfo 651 :No active profile set, falling back to default profiles: default
+INFO 2020-04-30 22:24:51 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2020-04-30 22:24:51 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 225 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2020-04-30 22:24:52 o.s.b.w.e.t.TomcatWebServer.initialize 92 :Tomcat initialized with port(s): 9000 (http)
+INFO 2020-04-30 22:24:52 o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2020-04-30 22:24:52 o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.33]
+INFO 2020-04-30 22:24:52 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2020-04-30 22:24:52 o.s.w.c.ContextLoader.prepareWebApplicationContext 284 :Root WebApplicationContext: initialization completed in 1403 ms
+INFO 2020-04-30 22:24:53 o.s.s.c.ThreadPoolTaskExecutor.initialize 181 :Initializing ExecutorService 'applicationTaskExecutor'
+INFO 2020-04-30 22:24:53 o.s.b.d.a.OptionalLiveReloadServer.startServer 58 :LiveReload server is running on port 35729
+INFO 2020-04-30 22:24:53 o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 9000 (http) with context path '/web'
+INFO 2020-04-30 22:24:53 c.l.f.FlowermanagementApplication.logStarted 61 :Started FlowermanagementApplication in 2.871 seconds (JVM running for 5.007)
+INFO 2020-04-30 22:24:57 o.a.c.c.C.[.[.[/web].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2020-04-30 22:24:57 o.s.w.s.DispatcherServlet.initServletBean 525 :Initializing Servlet 'dispatcherServlet'
+INFO 2020-04-30 22:24:57 o.s.w.s.DispatcherServlet.initServletBean 547 :Completed initialization in 8 ms
+INFO 2020-04-30 22:24:57 c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+INFO 2020-04-30 22:24:58 c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+INFO 2020-04-30 22:24:58 p6spy.logSQL 60 :1588256698337|54|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select * from  flowermanagement.repertory|select * from  flowermanagement.repertory
+INFO 2020-04-30 22:24:58 p6spy.logSQL 60 :1588256698483|66|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select shop.shop_id,shop.`name` as shopName,shop.address         from flowermanagement.shop         where shop_id = ?|select shop.shop_id,shop.`name` as shopName,shop.address         from flowermanagement.shop         where shop_id = 1
+INFO 2020-04-30 22:24:58 p6spy.logSQL 60 :1588256698557|65|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select shop.shop_id,shop.`name` as shopName,shop.address         from flowermanagement.shop         where shop_id = ?|select shop.shop_id,shop.`name` as shopName,shop.address         from flowermanagement.shop         where shop_id = 2
+INFO 2020-04-30 22:24:58 p6spy.logSQL 60 :1588256698636|76|statement|connection 0|url jdbc:p6spy:mysql://47.96.226.129:3306/flowermanagement?serverTimezone=UTC&characterEncoding=UTF-8|select shop.shop_id,shop.`name` as shopName,shop.address         from flowermanagement.shop         where shop_id = ?|select shop.shop_id,shop.`name` as shopName,shop.address         from flowermanagement.shop         where shop_id = 3
+INFO 2020-04-30 22:24:58 c.l.f.a.PerformanceAspect.logPerformance 30 :RepertoryService.selectAll();Y;1132ms
+INFO 2020-04-30 22:24:58 c.l.f.c.RepertoryController.selectAll 86 :[com.lyg.flowermanagement.entity.Repertory@5225d0ac, com.lyg.flowermanagement.entity.Repertory@5b65ea4, com.lyg.flowermanagement.entity.Repertory@183a4841, com.lyg.flowermanagement.entity.Repertory@1579572e, com.lyg.flowermanagement.entity.Repertory@6925459d, com.lyg.flowermanagement.entity.Repertory@5ed16563, com.lyg.flowermanagement.entity.Repertory@14e356b8, com.lyg.flowermanagement.entity.Repertory@4bfcb32d, com.lyg.flowermanagement.entity.Repertory@8360e62, com.lyg.flowermanagement.entity.Repertory@5d19887a, com.lyg.flowermanagement.entity.Repertory@534153f7, com.lyg.flowermanagement.entity.Repertory@7d0af769, com.lyg.flowermanagement.entity.Repertory@45f7b3b4, com.lyg.flowermanagement.entity.Repertory@54bcb928]

@@ -9,4 +9,6 @@ import java.util.List;
 public interface IShopMapper {
     //查看店铺的id和店铺名称
     List<Shop> findByIdAndName(Shop shop);
+    //根据id查
+    Shop queryById(int id);
 }

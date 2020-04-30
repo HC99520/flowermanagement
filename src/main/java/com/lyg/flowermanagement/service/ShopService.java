@@ -15,4 +15,9 @@ public class ShopService implements IShopMapper {
     public List<Shop> findByIdAndName(Shop shop) {
         return iShopMapper.findByIdAndName(shop);
     }
+
+    @Override
+    public Shop queryById(int id) {
+        return iShopMapper.queryById(id);
+    }
 }

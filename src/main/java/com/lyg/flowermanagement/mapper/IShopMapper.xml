@@ -12,6 +12,12 @@
     <select id="findByIdAndName" resultMap="ShopMap">
   	SELECT shop.shop_id,shop.`name` as shopName FROM shop
     </select>
+<!--    根据id查-->
+    <select id="queryById" resultMap="ShopMap">
+  select shop.shop_id,shop.`name` as shopName,shop.address
+        from flowermanagement.shop
+        where shop_id = #{id}
+    </select>
 
 
 </mapper>
