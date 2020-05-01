@@ -1,6 +1,7 @@
 package com.lyg.flowermanagement.controller;
 
 import com.lyg.flowermanagement.entity.Employee;
+import com.lyg.flowermanagement.entity.Shop;
 import com.lyg.flowermanagement.service.EmployeeService;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.logging.Log;
@@ -99,5 +100,10 @@ public class EmployeeController {
         map.put("result",emp);
         return map;
     }
+    //测试地址：http://localhost:9000/web/ShopController/selectOne?id=1
+    @GetMapping("selectOne")
+    public Employee selectOne(String id) {
 
+        return this.employeeService.queryById(id);
+    }
 }

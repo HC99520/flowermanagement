@@ -14,6 +14,13 @@
         <result property="tel" column="tel" jdbcType="VARCHAR"/>
         <result property="email" column="email" jdbcType="VARCHAR"/>
     </resultMap>
+    <!--    根据id查-->
+    <select id="queryById" resultMap="EmployeeMap">
+  select employee.emp_id,employee.password,employee.`name` as empName,
+        employee.birthday,employee.tel,employee.email
+        from flowermanagement.employee
+        where  employee.emp_id=#{empId}
+    </select>
 
     <select id="selectAll" resultMap="EmployeeMap">
    select employee.emp_id,employee.shop_id,shop.name as shopName,shop.address,employee.password,employee.`name` as empName,

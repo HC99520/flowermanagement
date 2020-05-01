@@ -48,4 +48,9 @@ public class EmployeeService implements IEmployeeMapper {
     public Integer insert(Employee employee) {
         return iEmployeeMapper.insert(employee);
     }
+
+    @Override
+    public Employee queryById(String id) {
+        return iEmployeeMapper.queryById(id);
+    }
 }

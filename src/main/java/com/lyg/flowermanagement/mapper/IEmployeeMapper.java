@@ -1,6 +1,7 @@
 package com.lyg.flowermanagement.mapper;
 
 import com.lyg.flowermanagement.entity.Employee;
+import com.lyg.flowermanagement.entity.Shop;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -29,4 +30,7 @@ public interface IEmployeeMapper {
 
     //新增员工
     Integer insert(Employee employee);
+
+    //根据id查
+    Employee queryById(String id);
 }
