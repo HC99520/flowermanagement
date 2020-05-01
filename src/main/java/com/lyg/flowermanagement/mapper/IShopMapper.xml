@@ -18,6 +18,28 @@
         from flowermanagement.shop
         where shop_id = #{id}
     </select>
+    <!--通过主键修改数据-->
+    <update id="update">
+        update flowermanagement.shop
+        <set>
 
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="address!=null and address!=''">
+                address=#{address}
+            </if>
 
+        </set>
+        where shop_id=#{shopId}
+    </update>
+    <!--通过shopId删除-->
+    <delete id="deleteById">
+        delete from flowermanagement.shop where shop_id=#{shopId}
+    </delete>
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="shop_id" useGeneratedKeys="true">
+        insert into flowermanagement.shop( shop_id,name,address)
+        values ( #{shopId},#{name}, #{address})
+    </insert>
 </mapper>

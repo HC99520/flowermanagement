@@ -25,7 +25,7 @@ public interface IEmployeeMapper {
     Integer update(Employee employee);
 
     //删除员工操作
-    Integer deleteById(String empId);
+    Integer deleteById(String shopId);
 
     //新增员工
     Integer insert(Employee employee);

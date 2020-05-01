@@ -20,4 +20,19 @@ public class ShopService implements IShopMapper {
     public Shop queryById(int id) {
         return iShopMapper.queryById(id);
     }
+
+    @Override
+    public Integer update(Shop shop) {
+        return iShopMapper.update(shop);
+    }
+
+    @Override
+    public Integer deleteById(Integer shopId) {
+        return iShopMapper.deleteById(shopId);
+    }
+
+    @Override
+    public Integer insert(Shop shop) {
+        return iShopMapper.insert(shop);
+    }
 }
