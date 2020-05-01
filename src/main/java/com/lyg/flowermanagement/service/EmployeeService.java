@@ -20,8 +20,8 @@ public class EmployeeService implements IEmployeeMapper {
     }
 
     @Override
-    public Employee selectEmpById(int empId) {
-        return iEmployeeMapper.selectEmpById(empId);
+    public Employee queryById(int empId) {
+        return iEmployeeMapper.queryById(empId);
     }
 
     @Override

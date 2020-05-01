@@ -3,13 +3,7 @@
 <mapper namespace="com.lyg.flowermanagement.mapper.OrderMapper">
 
     <resultMap type="com.lyg.flowermanagement.entity.Order" id="OrderMap">
-        <result property="ordId" column="ord_id" jdbcType="INTEGER"/>
-        <result property="employee.empId" column="emp_id" jdbcType="VARCHAR"/>
-        <result property="employee.password" column="password" jdbcType="VARCHAR"/>
-        <result property="employee.name" column="name" jdbcType="VARCHAR"/>
-        <result property="employee.birthday" column="birthday" jdbcType="VARCHAR"/>
-        <result property="employee.tel" column="tel" jdbcType="VARCHAR"/>
-        <result property="employee.email" column="email" jdbcType="VARCHAR"/>
+        <id property="ordId" column="ord_id" jdbcType="INTEGER"/>
         <result property="commodity" column="commodity" jdbcType="VARCHAR"/>
         <result property="price" column="price" jdbcType="NUMERIC"/>
         <result property="quantity" column="quantity" jdbcType="INTEGER"/>
@@ -19,8 +13,10 @@
         <result property="address" column="address" jdbcType="VARCHAR"/>
         <result property="remarks" column="remarks" jdbcType="VARCHAR"/>
         <result property="saveDate" column="save_date" jdbcType="TIMESTAMP"/>
-        <collection property="shop" column="shop_id"
-                    select="com.lyg.flowermanagement.mapper.IShopMapper.queryById"/>
+        <association property="employee" column="emp_id"
+                     select="com.lyg.flowermanagement.mapper.IEmployeeMapper.queryById"/>
+        <association property="shop" column="shop_id"
+                     select="com.lyg.flowermanagement.mapper.IShopMapper.queryById"/>
     </resultMap>
     <!--查询单个-->
     <select id="queryById" resultMap="OrderMap">

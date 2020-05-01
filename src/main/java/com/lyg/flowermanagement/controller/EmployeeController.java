@@ -32,7 +32,7 @@ public class EmployeeController {
     //根据id查询员工信息
     @GetMapping("/selectById")
     public Employee selectById(int empId){
-        return this.employeeService.selectEmpById(empId);
+        return this.employeeService.queryById(empId);
     }
     //员工登录
     //测试地址:http://localhost:9000/web/EmployeeController/employeeLogin?empId=1501&&password=123456

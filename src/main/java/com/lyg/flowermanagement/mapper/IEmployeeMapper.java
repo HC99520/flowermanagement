@@ -14,7 +14,7 @@ public interface IEmployeeMapper {
     List<Employee> selectAll();
 
     //根据id查询员工信息
-    Employee selectEmpById(int empId);
+    Employee queryById(int empId);
 
     //登录操作
     Employee employeeLogin(@Param("empId") String empId, @Param("password") String password);
