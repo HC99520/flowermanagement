@@ -1,6 +1,5 @@
 package com.lyg.flowermanagement.mapper;
 
-import com.lyg.flowermanagement.entity.Manager;
 import com.lyg.flowermanagement.entity.Repertory;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

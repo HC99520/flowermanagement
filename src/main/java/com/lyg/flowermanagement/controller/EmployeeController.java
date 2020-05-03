@@ -1,5 +1,6 @@
 package com.lyg.flowermanagement.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.lyg.flowermanagement.entity.Employee;
 import com.lyg.flowermanagement.entity.Shop;
 import com.lyg.flowermanagement.service.EmployeeService;
@@ -35,30 +36,20 @@ public class EmployeeController {
         return this.employeeService.queryById(empId);
     }
     //员工登录
-    //测试地址:http://localhost:9000/web/EmployeeController/employeeLogin?empId=1501&&password=123456
-    @RequestMapping("/login")
-    public  Map<String,String> employeeLogin(String id,String password) {
-        Map<String, String> map = new HashMap<>();
-        Employee employee = employeeService.employeeLogin(id, password);
-        log.info(employee);
-        //判断对象是否为空
-        if (employee == null) {
-            map.put("success", "false");
-            return map;
-        } else {
-            try {
-                //admin对象转换为map对象
-                map = BeanUtils.describe(employee);
-                map.put("success", "ok");
-            } catch (IllegalAccessException e) {
-                log.error(e.getMessage());
-            } catch (InvocationTargetException e) {
-                log.error(e.getMessage());
-            } catch (NoSuchMethodException e) {
-                log.error(e.getMessage());
-            }
-            return map;
+    //测试地址:http://localhost:9000/web/EmployeeController/login?id=1501&&password=123456
+  @RequestMapping("/login")
+    public  String employeeLogin(String id,String password) {
+
+        Employee employee=this.employeeService.employeeLogin(id,password);
+        if (employee==null) {
+            return "{\"success\":\"false\"}";
+        }else{
+            employee.setSuccess("ok");
+            return JSON.toJSONString(employee);
         }
+
+
+
     }
     //员工重置个人密码
     //测试地址:http://localhost:9000/web/EmployeeController/resetPassword?empId=1501&&password
@@ -92,7 +83,7 @@ public class EmployeeController {
     }
     //添加操作
     //测试地址:http://localhost:9000/web/EmployeeController/insertEmployee?empId=123&&password=666&&shop.shopId=321&&name=333&&tel=333&&email=333&&birthday=333
-    //成功删除  result:1
+    //成功  result:1
     @GetMapping("/insertEmployee")
     public Map insertEmployee(Employee employee) {
         Map map= new HashMap();

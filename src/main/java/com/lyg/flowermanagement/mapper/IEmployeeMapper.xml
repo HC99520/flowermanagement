@@ -15,8 +15,10 @@
     </resultMap>
     <!--    根据id查-->
     <select id="queryById" resultMap="EmployeeMap">
-  select *
-        from flowermanagement.employee
+  select employee.emp_id,employee.password,employee.name as empName,employee.birthday,employee.tel,
+  employee.email,shop.shop_id
+        from flowermanagement.employee inner join shop
+        on employee.shop_id=shop.shop_id
         where  employee.emp_id=#{empId}
     </select>
 

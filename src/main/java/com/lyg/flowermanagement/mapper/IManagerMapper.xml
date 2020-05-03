@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.lyg.flowermanagement.mapper.IManagerMapper">
+
     <resultMap type="com.lyg.flowermanagement.entity.Manager" id="ManagerMap">
         <result property="managerId" column="manager_id" jdbcType="VARCHAR"/>
         <result property="password" column="password" jdbcType="VARCHAR"/>
@@ -16,13 +17,23 @@
         from flowermanagement.manager
         where manager_id = #{managerId}
     </select>
-
-    <select id="login" resultMap="ManagerMap">
-        SELECT *  FROM manager WHERE manager_id=#{id} AND password=#{password}
-    </select>
+    <!--查所有-->
     <select id="selectAll" resultMap="ManagerMap">
-        select * from  manager
+        select * from flowermanagement.manager
     </select>
+   <!-- 登陆操作-->
+    <select id="Login" resultMap="ManagerMap">
+        select * from flowermanagement.manager where manager_id=#{managerId} and password=#{password}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="ManagerMap">
+        select
+          manager_id, password, name, tel, email
+        from flowermanagement.manager
+        limit #{offset}, #{limit}
+    </select>
+
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="ManagerMap">
         select
@@ -57,9 +68,6 @@
     <update id="update">
         update flowermanagement.manager
         <set>
-         <if test="managerId != null and managerId != ''">
-             manager_id = #{managerId},
-        </if>
             <if test="password != null and password != ''">
                 password = #{password},
             </if>
@@ -80,7 +88,7 @@
     <delete id="deleteById">
         delete from flowermanagement.manager where manager_id = #{managerId}
     </delete>
-    <!--店主重置密码 -->
+    <!--员工重置密码 -->
     <update id="resetPassword" parameterType="com.lyg.flowermanagement.entity.Manager">
         update manager
         <set>

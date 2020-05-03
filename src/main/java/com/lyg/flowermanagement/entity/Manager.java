@@ -1,23 +1,15 @@
 package com.lyg.flowermanagement.entity;
 
 import java.io.Serializable;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.ToString;
 
 /**
- * (IManagerMapper)数据传输对象
+ * (Manager)实体类
  *
- * @author annian7
- * @since 2020-04-28 23:06:25
+ * @author makejava
+ * @since 2020-05-03 20:11:02
  */
-@AllArgsConstructor
-@Data
-@Builder
-@ToString
 public class Manager implements Serializable {
-    private static final long serialVersionUID = -75434558243855654L;
+    private static final long serialVersionUID = -72028764339778744L;
     
     private String managerId;
     
@@ -28,5 +20,54 @@ public class Manager implements Serializable {
     private String tel;
     
     private String email;
+    private String success;
+
+    public String getSuccess() {
+        return success;
+    }
+
+    public void setSuccess(String success) {
+        this.success = success;
+    }
+
+    public String getManagerId() {
+        return managerId;
+    }
+
+    public void setManagerId(String managerId) {
+        this.managerId = managerId;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getTel() {
+        return tel;
+    }
+
+    public void setTel(String tel) {
+        this.tel = tel;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
 }
