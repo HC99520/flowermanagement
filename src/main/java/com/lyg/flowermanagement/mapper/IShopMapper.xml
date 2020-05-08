@@ -5,16 +5,16 @@
 <mapper namespace="com.lyg.flowermanagement.mapper.IShopMapper">
     <resultMap id="ShopMap" type="com.lyg.flowermanagement.entity.Shop">
         <id property="shopId" column="shop_id"/>
-        <result property="name" column="shopName"></result>
+        <result property="name" column="name"></result>
         <result property="address" column="address"></result>
     </resultMap>
     <!--查看店铺的id和店铺名称-->
     <select id="findByIdAndName" resultMap="ShopMap">
-  	SELECT shop.shop_id,shop.`name` as shopName FROM shop
+  	SELECT * FROM shop
     </select>
 <!--    根据id查-->
     <select id="queryById" resultMap="ShopMap">
-  select shop.shop_id,shop.`name` as shopName,shop.address
+  select *
         from flowermanagement.shop
         where shop_id = #{id}
     </select>

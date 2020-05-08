@@ -153,4 +153,21 @@ public class Order implements Serializable {
         this.saveDate = saveDate;
     }
 
+    @Override
+    public String toString() {
+        return "Order{" +
+                "ordId=" + ordId +
+                ", shop=" + shop +
+                ", employee=" + employee +
+                ", commodity='" + commodity + '\'' +
+                ", price=" + price +
+                ", quantity=" + quantity +
+                ", totalPrice=" + totalPrice +
+                ", name='" + name + '\'' +
+                ", tel='" + tel + '\'' +
+                ", address='" + address + '\'' +
+                ", remarks='" + remarks + '\'' +
+                ", saveDate='" + saveDate + '\'' +
+                '}';
+    }
 }

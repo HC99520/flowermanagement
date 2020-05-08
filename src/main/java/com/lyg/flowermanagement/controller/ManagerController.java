@@ -61,11 +61,14 @@ public class ManagerController {
     //修改密码:http://localhost:9000/web/manager/update?managerId=1001&&password=111
     //修改个人信息也是这个
     @GetMapping("/update")
-    public  Map update( Manager manager){
+    public  Manager update( Manager manager){
         Map map= new HashMap();
         Integer emp=  this.managerService.update(manager);
-        map.put("result",emp);
-        return map;
+        if(emp>=1){
+            return this.managerService.queryById(manager.getManagerId());
+        }else{
+            return null;
+        }
     }
     //添加操作:http://localhost:9000/web/manager/insert?managerId=3&&name=1&&password=333
     @GetMapping("/insert")

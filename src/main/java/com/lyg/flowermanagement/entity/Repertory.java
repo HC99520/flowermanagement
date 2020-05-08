@@ -97,4 +97,16 @@ public class Repertory implements Serializable {
         this.saveDate = saveDate;
     }
 
+    @Override
+    public String toString() {
+        return "Repertory{" +
+                "repId=" + repId +
+                ", shop=" + shop +
+                ", commodity='" + commodity + '\'' +
+                ", quantity=" + quantity +
+                ", surplus=" + surplus +
+                ", price=" + price +
+                ", saveDate='" + saveDate + '\'' +
+                '}';
+    }
 }

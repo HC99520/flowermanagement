@@ -1,16 +1,16 @@
 package com.lyg.flowermanagement.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString
 public class Shop {
     private Integer shopId;
     private String name;
     private String address;
+
+
 }

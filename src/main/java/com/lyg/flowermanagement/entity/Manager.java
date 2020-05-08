@@ -8,8 +8,7 @@ import java.io.Serializable;
  * @author makejava
  * @since 2020-05-03 20:11:02
  */
-public class Manager implements Serializable {
-    private static final long serialVersionUID = -72028764339778744L;
+public class Manager{
     
     private String managerId;
     
@@ -70,4 +69,15 @@ public class Manager implements Serializable {
         this.email = email;
     }
 
+    @Override
+    public String toString() {
+        return "Manager{" +
+                "managerId='" + managerId + '\'' +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                ", tel='" + tel + '\'' +
+                ", email='" + email + '\'' +
+                ", success='" + success + '\'' +
+                '}';
+    }
 }

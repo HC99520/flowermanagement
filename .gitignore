@@ -5,6 +5,7 @@ target/
 !**/src/main/**
 !**/src/test/**
 flowers_management.log
+flowers_management.log.2020-05-01.0.gz
 
 ### STS ###
 .apt_generated

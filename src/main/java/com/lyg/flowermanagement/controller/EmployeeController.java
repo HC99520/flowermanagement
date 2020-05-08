@@ -39,7 +39,6 @@ public class EmployeeController {
     //测试地址:http://localhost:9000/web/EmployeeController/login?id=1501&&password=123456
   @RequestMapping("/login")
     public  String employeeLogin(String id,String password) {
-
         Employee employee=this.employeeService.employeeLogin(id,password);
         if (employee==null) {
             return "{\"success\":\"false\"}";
@@ -47,9 +46,6 @@ public class EmployeeController {
             employee.setSuccess("ok");
             return JSON.toJSONString(employee);
         }
-
-
-
     }
     //员工重置个人密码
     //测试地址:http://localhost:9000/web/EmployeeController/resetPassword?empId=1501&&password
@@ -61,15 +57,18 @@ public class EmployeeController {
         return  map;
     }
     //员工修改操作
-    //修改员工密码:测试地址:http://localhost:9000/web/EmployeeController/updatePassword?empId=123&&password=666
-    //修改员工信息:测试地址:http://localhost:9000/web/EmployeeController/updatePassword?empId=123&&password=666&&shop.shopId=321&&name=333&&tel=333&&email=333&&birthday=333
+    //修改员工密码:测试地址:http://localhost:9000/web/EmployeeController/update?empId=123&&password=666
+    //修改员工信息:测试地址:http://localhost:9000/web/EmployeeController/update?empId=123&&password=666&&shop.shopId=321&&name=333&&tel=333&&email=333&&birthday=333
     //成功返回值是  result:1
-    @GetMapping("/updatePassword")
-    public  Map updatePassword(Employee employee){
+    @GetMapping("/update")
+    public  Employee updatePassword(Employee employee){
         Map map= new HashMap();
         Integer emp=  this.employeeService.update(employee);
-           map.put("result",emp);
-            return map;
+           if(emp>=1){
+               return this.employeeService.queryById(employee.getEmpId());
+           }else{
+               return null;
+           }
     }
     //删除一条员工信息
     //测试地址:http://localhost:9000/web/EmployeeController/deleteEmployee?empId=123
