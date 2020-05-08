@@ -65,8 +65,8 @@
 
     <!--新增所有列-->
     <insert id="insert" keyProperty="repId" useGeneratedKeys="true">
-        insert into flowermanagement.repertory(rep_id,shop_id, commodity, quantity, surplus, price, save_date)
-        values (#{repId},#{shop.shopId}, #{commodity}, #{quantity}, #{surplus}, #{price}, #{saveDate})
+        insert into flowermanagement.repertory(shop_id, commodity, quantity, surplus, price, save_date)
+        values (#{shop.shopId}, #{commodity}, #{quantity}, #{surplus}, #{price}, #{saveDate})
     </insert>
 
     <!--通过主键修改数据-->

@@ -45,7 +45,7 @@ public class RepertoryController {
     }
     //增加库存
     //添加操作
-    //测试地址:http://localhost:9000/web/repertory/insert?repId=14&&shop.shopId=3&&commodity=%27%E7%8E%AB%E7%91%B0%27&&quantity=200&&surplus=200&&price=200
+    //测试地址:http://localhost:9000/web/repertory/insert?shop.shopId=3&&commodity=%27%E7%8E%AB%E7%91%B0%27&&quantity=200&&surplus=200&&price=200
     // 成功  result:1
     @GetMapping("/insert")
     public Map insert(Repertory repertory ) {
