@@ -57,4 +57,9 @@ IRepertoryMapper ieRepertoryMapper;
     public List<Repertory> selectByName(String commodityName) {
         return ieRepertoryMapper.selectByName(commodityName);
     }
+
+    @Override
+    public List<Repertory> selectById(Integer shopId) {
+        return ieRepertoryMapper.selectById(shopId);
+    }
 }

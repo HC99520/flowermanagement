@@ -29,6 +29,9 @@
     <select id="selectAll" resultMap="OrderMap">
         select * from flowermanagement.order
     </select>
+    <select id="selectById" resultMap="OrderMap">
+    	SELECT * FROM `order` WHERE shop_id=#{shopId}
+    </select>
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="OrderMap">
         select

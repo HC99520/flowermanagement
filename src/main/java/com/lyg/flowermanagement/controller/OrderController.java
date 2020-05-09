@@ -79,4 +79,12 @@ public class OrderController {
         log.info(list);
         return  list;
     }
+    //根据店铺id查询订单信息
+    //测试地址:http://localhost:9000/web/order/selectById?shopId=2
+    @RequestMapping("selectById")
+    public  List<Order> selectById(Integer shopId){
+        List<Order> list=orderService.selectById(shopId);
+        return  list;
+    }
+
 }

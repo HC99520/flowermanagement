@@ -67,4 +67,6 @@ public interface OrderMapper {
     int deleteById(Integer ordId);
     //无条件查询所有
     List<Order> selectAll();
+    //根据店铺id查询订单信息
+    List<Order> selectById(@Param("shopId") Integer shopId);
 }

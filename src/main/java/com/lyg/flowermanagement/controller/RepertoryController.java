@@ -1,5 +1,6 @@
 package com.lyg.flowermanagement.controller;
 
+import com.lyg.flowermanagement.entity.Order;
 import com.lyg.flowermanagement.entity.Repertory;
 import com.lyg.flowermanagement.service.RepertoryService;
 import org.apache.commons.logging.Log;
@@ -93,6 +94,13 @@ public class RepertoryController {
     public  List<Repertory> selectByName(String commodityName){
         List<Repertory> list=repertoryService.selectByName(commodityName);
         return list;
+    }
+    //根据店铺id查询库存信息
+    //测试地址:http://localhost:9000/web/repertory/selectById?shopId=2
+    @RequestMapping("selectById")
+    public  List<Repertory> selectById(Integer shopId){
+        List<Repertory> list=repertoryService.selectById(shopId);
+        return  list;
     }
 
 }

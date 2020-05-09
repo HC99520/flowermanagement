@@ -46,4 +46,9 @@ public class OrderService implements OrderMapper {
     public List<Order> selectAll() {
         return orderMapper.selectAll();
     }
+
+    @Override
+    public List<Order> selectById(Integer shopId) {
+        return orderMapper.selectById(shopId);
+    }
 }
