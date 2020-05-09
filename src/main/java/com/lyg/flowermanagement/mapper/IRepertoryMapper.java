@@ -68,5 +68,7 @@ public interface IRepertoryMapper {
 
     //无条件查询所有
     List<Repertory> selectAll();
+     // 根据商品名查询
+    List<Repertory> selectByName(@Param("commodityName") String commodityName);
 
 }

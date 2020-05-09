@@ -22,6 +22,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("order")
+@CrossOrigin("*")
 public class OrderController {
     Log log= LogFactory.getLog(OrderController.class);
     /**

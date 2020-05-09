@@ -52,4 +52,9 @@ IRepertoryMapper ieRepertoryMapper;
     public List<Repertory> selectAll() {
         return this.ieRepertoryMapper.selectAll();
     }
+
+    @Override
+    public List<Repertory> selectByName(String commodityName) {
+        return ieRepertoryMapper.selectByName(commodityName);
+    }
 }

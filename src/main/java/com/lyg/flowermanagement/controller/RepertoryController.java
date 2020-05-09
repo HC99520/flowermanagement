@@ -62,6 +62,8 @@ public class RepertoryController {
      @GetMapping("/update")
     public  Map update(Repertory repertory){
         Map map= new HashMap();
+         SimpleDateFormat df1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
+         repertory.setSaveDate(df1.format(new Date()));
         Integer emp=  this.repertoryService.update(repertory);
         map.put("result",emp);
         return map;
@@ -84,4 +86,13 @@ public class RepertoryController {
         log.info(list);
         return  list;
     }
+
+       //根据商品名查询
+    //测试地址:http://localhost:9000/web/repertory/selectByName?commodityName=红玫瑰
+    @RequestMapping("/selectByName")
+    public  List<Repertory> selectByName(String commodityName){
+        List<Repertory> list=repertoryService.selectByName(commodityName);
+        return list;
+    }
+
 }

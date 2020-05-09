@@ -20,7 +20,10 @@
         from flowermanagement.repertory
         where rep_id = #{repId}
     </select>
-
+  <!--  根据商品名查询-->
+    <select id="selectByName" resultMap="RepertoryMap">
+SELECT * FROM repertory WHERE commodity  like '%${commodityName}%'
+    </select>
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="RepertoryMap">
         select
@@ -74,9 +77,6 @@
         update flowermanagement.repertory
 
         <set>
-            <if test="shop.shopId != null">
-                shop_id = #{shop.shopId},
-            </if>
             <if test="commodity != null and commodity != ''">
                 commodity = #{commodity},
             </if>
