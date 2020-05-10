@@ -38,8 +38,8 @@
         delete from flowermanagement.shop where shop_id=#{shopId}
     </delete>
     <!--新增所有列-->
-    <insert id="insert" keyProperty="shop_id" useGeneratedKeys="true">
-        insert into flowermanagement.shop( shop_id,name,address)
-        values ( #{shopId},#{name}, #{address})
+    <insert id="insert" parameterType="com.lyg.flowermanagement.mapper.IShopMapper">
+        insert into flowermanagement.shop( name,address)
+        values ( #{name}, #{address})
     </insert>
 </mapper>

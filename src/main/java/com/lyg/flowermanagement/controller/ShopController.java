@@ -57,7 +57,7 @@ public class ShopController {
         return map;
     }
     //新增操作
-    //测试地址:http://localhost:9000/web/ShopController/insert?shopId=5&&name=22&&address=44
+    //测试地址:http://localhost:9000/web/ShopController/insert?name=22&&address=44
     @GetMapping("/insert")
     public Map insert(Shop shop) {
         Map map= new HashMap();
