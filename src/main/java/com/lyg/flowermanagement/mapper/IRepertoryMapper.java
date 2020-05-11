@@ -72,5 +72,6 @@ public interface IRepertoryMapper {
     List<Repertory> selectByName(@Param("commodityName") String commodityName);
     //根据店铺名称查看库存信息
     List<Repertory> selectByShopName(@Param("shopName")String shopName);
-
+    //根据店铺id 查看库存信息
+    List<Repertory> selectByShopId(@Param("id") Integer id);
 }

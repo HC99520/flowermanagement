@@ -102,5 +102,11 @@ public class RepertoryController {
         List<Repertory> list=repertoryService.selectByShopName(shopName);
         return  list;
     }
-
+    //根据店铺id查询库存信息
+    //测试地址:
+    @RequestMapping("selectByShopId")
+    public  List<Repertory> selectByShopId(Integer id){
+        List<Repertory> list=repertoryService.selectByShopId(id);
+        return  list;
+    }
 }

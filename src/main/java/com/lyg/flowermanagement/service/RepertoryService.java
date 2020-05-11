@@ -62,4 +62,9 @@ IRepertoryMapper ieRepertoryMapper;
     public List<Repertory> selectByShopName(String shopName) {
         return ieRepertoryMapper.selectByShopName(shopName);
     }
+
+    @Override
+    public List<Repertory> selectByShopId(Integer id) {
+        return this.ieRepertoryMapper.selectByShopId(id);
+    }
 }
