@@ -59,7 +59,7 @@ IRepertoryMapper ieRepertoryMapper;
     }
 
     @Override
-    public List<Repertory> selectById(Integer shopId) {
-        return ieRepertoryMapper.selectById(shopId);
+    public List<Repertory> selectByShopName(String shopName) {
+        return ieRepertoryMapper.selectByShopName(shopName);
     }
 }

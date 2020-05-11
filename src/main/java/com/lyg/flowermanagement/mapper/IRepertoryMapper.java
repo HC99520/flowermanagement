@@ -70,7 +70,7 @@ public interface IRepertoryMapper {
     List<Repertory> selectAll();
      // 根据商品名查询
     List<Repertory> selectByName(@Param("commodityName") String commodityName);
-    //根据店铺id查看库存信息
-    List<Repertory> selectById(@Param("shopId")Integer shopId);
+    //根据店铺名称查看库存信息
+    List<Repertory> selectByShopName(@Param("shopName")String shopName);
 
 }

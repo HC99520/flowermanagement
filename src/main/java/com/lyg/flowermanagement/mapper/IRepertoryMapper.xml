@@ -20,8 +20,9 @@
         from flowermanagement.repertory
         where rep_id = #{repId}
     </select>
-    <select id="selectById" resultMap="RepertoryMap">
-        select * from repertory where shop_id=#{shopId}
+    <select id="selectByShopName" resultMap="RepertoryMap">
+        SELECT repertory.*  FROM repertory INNER JOIN shop on repertory.shop_id = shop.shop_id
+        WHERE shop.`name`=#{shopName}
     </select>
   <!--  根据商品名查询-->
     <select id="selectByName" resultMap="RepertoryMap">

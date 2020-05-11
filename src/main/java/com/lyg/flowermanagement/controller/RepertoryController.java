@@ -88,18 +88,18 @@ public class RepertoryController {
         return  list;
     }
 
-       //根据商品名查询
+    //根据商品名查询
     //测试地址:http://localhost:9000/web/repertory/selectByName?commodityName=红玫瑰
     @RequestMapping("/selectByName")
     public  List<Repertory> selectByName(String commodityName){
         List<Repertory> list=repertoryService.selectByName(commodityName);
         return list;
     }
-    //根据店铺id查询库存信息
-    //测试地址:http://localhost:9000/web/repertory/selectById?shopId=2
-    @RequestMapping("selectById")
-    public  List<Repertory> selectById(Integer shopId){
-        List<Repertory> list=repertoryService.selectById(shopId);
+    //根据店铺名称查询库存信息
+    //测试地址:http://localhost:9000/web/repertory/selectByShopName
+    @RequestMapping("selectByShopName")
+    public  List<Repertory> selectByShopName(String shopName){
+        List<Repertory> list=repertoryService.selectByShopName(shopName);
         return  list;
     }
 
